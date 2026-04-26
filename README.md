@@ -16,7 +16,7 @@ Unlike traditional pipelines that rely heavily on segmentation and manual proces
 - High-quality **multi-branch aortic geometry reconstruction**
 - Direct compatibility with **computational fluid dynamics (CFD)**
 
-As described in the paper :contentReference[oaicite:0]{index=0}, the framework decomposes the problem into structured stages to improve robustness and geometric fidelity.
+As described in the [paper](https://ieeexplore.ieee.org/document/11269366), the framework decomposes the problem into structured stages to improve robustness and geometric fidelity.
 
 ---
 
@@ -36,7 +36,7 @@ The AortaDiff pipeline consists of three major stages:
 
 ### 2. Contour Extraction
 - Orthogonal slices are extracted along centerline points
-- A **SAM-based ScribblePrompt model** segments vessel lumen
+- A [**SAM-based ScribblePrompt model**](https://scribbleprompt.csail.mit.edu/) segments vessel lumen
 - Contours are extracted and standardized (32 points per slice)
 
 ### 3. Surface Reconstruction
@@ -71,3 +71,28 @@ Additional experiments and diffusion visualization are provided in the appendix 
 ---
 
 ## 🗂 Repository Structure
+```text
+AortaDiff/
+│
+├── experiments/                      # Core experiment scripts
+│   ├── DiffusionCentrelineTrain.py  # Train centerline diffusion model
+│   ├── DiffusionCenterlineSample.py # Inference / sampling script
+│   └── Sp_contour.py                # Contour extraction & preprocessing
+│
+├── denoising_diffusion_pytorch/     # Diffusion backbone (1D diffusion, UNet, trainer)
+│
+├── data/                            # Dataset (not included by default)
+│   ├── training_data/
+│   └── testing_data/
+│
+├── assets/                          # Figures for README
+│   ├── framework.png                # Framework overview (placeholder)
+│   └── results.png                  # Visualization results (placeholder)
+│
+├── paper/                           # Paper files
+│   ├── main.pdf                     # Main paper
+│   └── appendix.pdf                 # Appendix
+│
+├── requirements.txt                 # Python dependencies
+├── README.md                        # Project documentation
+└── LICENSE

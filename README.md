@@ -4,7 +4,7 @@
 > Published in **IEEE Transactions on Visualization and Computer Graphics (IEEE TVCG), 2026**
 
 <p align="center">
-  <a href="[https://ieeexplore.ieee.org/document/11269366](https://arxiv.org/pdf/2510.01498)">Paper</a>
+  <a href="https://arxiv.org/pdf/2510.01498">Paper</a>
 </p>
 
 ---

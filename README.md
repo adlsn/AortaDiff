@@ -4,10 +4,6 @@
 > **Authors:** Delin An, Pan Du, Jian-Xun Wang, Chaoli Wang  
 > Published in **IEEE Transactions on Visualization and Computer Graphics (IEEE TVCG), 2026**
 
-<p align="center">
-  <a href="https://arxiv.org/pdf/2507.13404">Paper</a>
-</p>
-
 ---
 
 ## 📌 Overview
@@ -29,10 +25,6 @@ AortaDiff is designed to address several challenges in aortic modeling:
 
 <p align="center">
   <img src="assets/framework.png" width="85%">
-</p>
-
-<p align="center">
-  <em>Figure placeholder: Overview of the AortaDiff framework.</em>
 </p>
 
 The AortaDiff pipeline contains three main stages:

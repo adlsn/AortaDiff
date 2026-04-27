@@ -12,9 +12,9 @@
 
 ## 📌 Overview
 
-AortaDiff is a volume-guided conditional diffusion framework for automatic multi-branch aortic surface generation from CT/MRI volumes.
+AortaDiff is a volume-guided conditional diffusion framework for the automatic generation of multi-branch aortic surfaces from CT/MRI volumes.
 
-Given a volumetric medical image, AortaDiff first generates a compact aortic centerline representation using a conditional diffusion model. The generated centerline is then used to guide contour extraction from orthogonal cross-sectional slices. Finally, the extracted contours are fitted into a smooth 3D NURBS surface, producing a high-quality aortic mesh suitable for visualization and downstream CFD analysis.
+Given a volumetric medical image, AortaDiff first generates a compact aortic centerline representation using a conditional diffusion model. The generated centerline is then used to guide the extraction of contours from orthogonal cross-sectional slices. Finally, the extracted contours are fitted into a smooth 3D NURBS surface, producing a high-quality aortic mesh suitable for visualization and downstream CFD analysis.
 
 AortaDiff is designed to address several challenges in aortic modeling:
 
@@ -350,7 +350,7 @@ AortaDiff reconstructs the final surface from centerline-guided contours. This d
 
 ### CFD-Compatible Mesh Output
 
-The generated surface can be further processed for CFD simulation, supporting downstream analysis such as velocity, pressure, and wall shear stress estimation.
+The generated surface can be further processed for CFD simulation, supporting downstream analyses such as estimation of velocity, pressure, and wall shear stress.
 
 ---
 
@@ -383,7 +383,7 @@ IEEE Transactions on Visualization and Computer Graphics, 2026
 If you find this work useful, please cite:
 
 ```bibtex
-@ARTICLE{11269366,
+@ARTICLE{aortadiff2026,
   author={An, Delin and Du, Pan and Wang, Jian-Xun and Wang, Chaoli},
   journal={IEEE Transactions on Visualization and Computer Graphics}, 
   title={AortaDiff: Volume-Guided Conditional Diffusion Models for Multi-Branch Aortic Surface Generation}, 

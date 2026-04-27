@@ -65,10 +65,6 @@ The extracted contours are aligned and fitted into a smooth NURBS surface.
   <img src="assets/results.png" width="85%">
 </p>
 
-<p align="center">
-  <em>Figure placeholder: Qualitative results of centerline generation, contour extraction, mesh construction, and CFD simulation.</em>
-</p>
-
 AortaDiff supports:
 
 - Multi-branch aortic surface generation

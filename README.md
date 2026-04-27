@@ -354,16 +354,6 @@ AortaDiff can be used for:
 
 ---
 
-## 📄 Paper
-
-If you use this repository, please refer to the paper:
-
-**AortaDiff: Volume-Guided Conditional Diffusion Models for Multi-Branch Aortic Surface Generation**  
-Delin An, Pan Du, Jian-Xun Wang, Chaoli Wang  
-IEEE Transactions on Visualization and Computer Graphics, 2026
-
----
-
 ## 📚 Citation
 
 If you find this work useful, please cite:

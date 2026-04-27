@@ -351,8 +351,6 @@ AortaDiff can be used for:
 - Medical visualization
 - CFD-compatible geometry construction
 - Hemodynamic analysis
-- Surgical planning
-- In silico anatomical modeling
 
 ---
 

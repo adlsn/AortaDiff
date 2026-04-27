@@ -1,6 +1,7 @@
 # AortaDiff: Volume-Guided Conditional Diffusion Models for Multi-Branch Aortic Surface Generation
 
-> Official implementation of **AortaDiff: Volume-Guided Conditional Diffusion Models for Multi-Branch Aortic Surface Generation**  
+> Official implementation of **AortaDiff: Volume-Guided Conditional Diffusion Models for Multi-Branch Aortic Surface Generation**
+> **Authors:** Delin An, Pan Du, Jian-Xun Wang, Chaoli Wang  
 > Published in **IEEE Transactions on Visualization and Computer Graphics (IEEE TVCG), 2026**
 
 <p align="center">
